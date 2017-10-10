@@ -1,5 +1,11 @@
 import Foundation
 import Uridium
 
-let window = Window("example",400,300)
-window.renderLoop()
+NSLog("initializing.....")
+if let window = Window(title:"example",width:400,height:300) {
+    NSLog("wooot!")
+    window.renderLoop()
+} else {
+    NSLog("prooot!")
+}
+
