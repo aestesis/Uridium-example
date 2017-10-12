@@ -8,7 +8,7 @@ let package = Package(
         .executable(name: "Uridium-example",targets: ["Uridium-example"])
     ],
     dependencies: [
-        .package(url: "https://github.com/aestesis/Uridium.git", from:"0.0.6")
+        .package(url: "https://github.com/aestesis/Uridium.git", from:"0.0.7")
     ],
     targets: [
         .target(name: "Uridium-example",dependencies: ["Uridium"]),
